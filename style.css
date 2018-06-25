@@ -1,0 +1,41 @@
+body {
+  background: #232840;
+  color: #ffffff;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: #486;
+  font-size: 30px;
+}
+
+
+.chip {
+  width: 500px;
+  background: #131521;
+  padding: 50px;
+  position: relative;
+  top: 80px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.display,
+h3,
+h4,
+h6,
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#icon,
+#btnFahrenheit {
+  color: #ffffff;
+}
+
+#description {
+  position: relative;
+  top: -15px;
+  left: 20px;
+}
