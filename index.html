@@ -1,0 +1,44 @@
+<body class="container">
+  <header class="col-xs-12 text-center">
+        <h1>Local Weather App</h1>
+      </header>
+  <!-- Weather Chip -->
+  <div class="chip">
+    <!-- Temperature Row -->
+    <div class="row">
+      <div class="col-5" >
+        <figure class="icons text-center">
+      <canvas id="icon" width="100" height="100"></canvas>
+   </figure>
+      </div>
+      <div class="col-7">
+        <div class="row"> 
+          <div class="col-8">
+            <h1 class="display" id="temp"></h1>
+          </div>
+          <!-- Change Temperature Unit -->
+          <div class="col-2">
+            <button id="btnCelsius" onclick="getCelsius()" disabled>°C</button>
+          </div>
+          <div class="col-2">
+            <button id="btnFahrenheit" onclick="getFahrenheit()">°F</button>
+          </div>
+          <!-- end Change Temperature Unit -->
+        </div>
+        <div class="row">
+            <h6 id="description"></h6>
+        </div>
+      </div>
+    </div> <!-- end Temperature Row -->
+    
+    
+    <div class="row">
+      <div class="col text-center">
+        <h3 id="place"></h3>
+      </div>
+    </div> 
+    
+    
+  </div> <!-- end Weather Chip -->
+ 
+</body>
