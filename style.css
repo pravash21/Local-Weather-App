@@ -1,19 +1,19 @@
 body {
-  background: #232840;
+  background: #232841;
   color: #ffffff;
 }
 
 button {
   background: transparent;
   border: none;
-  color: #486;
-  font-size: 30px;
+  color: #487;
+  font-size: 31px;
 }
 
 
 .chip {
   width: 500px;
-  background: #131521;
+  background: #131522;
   padding: 50px;
   position: relative;
   top: 80px;
